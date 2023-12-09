@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Frauded</title>
+  <meta content="made by xkt" property="og:title" />
+  <meta content="xkt" property="og:description" />
+  <meta content="https://slit.gay" property="og:url" />
+  <meta content="https://cdn.discordapp.com/attachments/1168733344289259583/1178466731220549714/MwM6R8L1_400x400.jpg" property="og:image" />
+  <meta content="#000001" data-react-helmet="true" name="theme-color" />
+  <link rel="stylesheet" href="style.css">
+  <script src="snowstorm.js"></script>
+  <script src="console.js"></script>
+  <script src="sparkle.js"></script>
+  <link rel="icon" href="https://cdn.discordapp.com/attachments/1163886973686132886/1182857602963615754/card.gif">
+
+  <style>
+    body {
+      background-image: url('tmm.png');
+    }
+
+    #fraud-link {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      font-family: monospace;
+      font-size: 1.5em;
+      color: #fff;
+      text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff;
+      cursor: pointer;
+    }
+
+    #fraud-link:hover {
+      text-decoration: underline;
+    }
+
+    .badge .badge-tooltiptext {
+      visibility: hidden;
+      width: 120px;
+      background-color: transparent;
+      color: #fff;
+      text-align: top;
+      border-radius: 6px;
+      padding: 5px 0;
+      position: absolute;
+      z-index: 1;
+      bottom: 125%;
+      left: 50%;
+      margin-left: -60px;
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .badge .badge-tooltiptext::after {
+      content: "";
+      position: absolute;
+      top: 100%;
+      left: 50%;
+      margin-left: -5px;
+      border-width: 5px;
+      border-style: solid;
+      border-color: transparent transparent transparent transparent;
+    }
+
+    .badge:hover .badge-tooltiptext {
+      visibility: visible;
+      opacity: 1;
+    }
+  </style>
+
+</head>
+
+<body onresize="resize()" onload="main()">
+  <canvas id="canvas-background" width="1920" height="1080"></canvas>
+
+  <script>
+    function videoPlay() {
+      var video = document.getElementById("video");
+      video.volume = 0.0;
+      video.play();
+    }
+
+    function audioPlay() {
+      var audio = document.getElementById("audio");
+      audio.volume = 0.15;
+      audio.play();
+    }
+
+    function redirectToFraud() {
+      window.location.href = "https://slit.gay";
+    }
+  </script>
+
+  <video loop="" preload="auto" class="vidoverlay" id="video">
+    <source src="https://cdn.discordapp.com/attachments/1170783180463284284/1178802263884562512/47.mp4" muted="" type="video/mp4">
+  </video>
+
+  <audio loop="" preload="auto" id="audio">
+    <source src="song.mp3" type="audio/mp3">
+  </audio>
+
+  <input type="checkbox" autocomplete="off" id="overlay-toggle">
+  <div class="overlay fullscreen">
+    <label for="overlay-toggle" onclick="videoPlay(); audioPlay(); ">
+      <span class="overlay-hover" style="font-family: monospace; font-size: 0.6em;">click</span>
+    </label>
+  </div>
+
+  <div id="fraud-link" onclick="redirectToFraud()">Slit</div>
+
+  <div id="center" align="center">
+    <div id="profile">
+      <span>
+        <p class="hover">
+          <a href="https://discord.gg/VFdHcdsCcf" target="_blank" class="hover">discord</a>
+          |
+          <a href="https://discord.com/users/504625649022009345" target="_blank" class="hover">discord profile</a>
+          |
+          <a href="https://open.spotify.com/artist/4BABxjwWTYP2ZZDiENR572" target="_blank" class="hover">spotify</a>
+        </p>
+        <p class="hover"></p>
+        <p></p>
+      </span>
+    </div>
+  </div>
+
+  <!-- <script defer src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
+  <script>window.addEventListener("load", (event) => { new cursoreffects.fairyDustCursor({ colors: ["#000000"], }); }); </script> -->
+  <style>
+  /* customizable snowflake styling */
+  .snowflake {
+    color: #fff;
+    font-size: 1em;
+    font-family: Arial, sans-serif;
+    text-shadow: 0 0 5px #000;
+  }
+
+  @-webkit-keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@-webkit-keyframes snowflakes-shake{0%,100%{-webkit-transform:translateX(0);transform:translateX(0)}50%{-webkit-transform:translateX(80px);transform:translateX(80px)}}@keyframes snowflakes-fall{0%{top:-10%}100%{top:100%}}@keyframes snowflakes-shake{0%,100%{transform:translateX(0)}50%{transform:translateX(80px)}}.snowflake{position:fixed;top:-10%;z-index:9999;-webkit-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;cursor:default;-webkit-animation-name:snowflakes-fall,snowflakes-shake;-webkit-animation-duration:10s,3s;-webkit-animation-timing-function:linear,ease-in-out;-webkit-animation-iteration-count:infinite,infinite;-webkit-animation-play-state:running,running;animation-name:snowflakes-fall,snowflakes-shake;animation-duration:10s,3s;animation-timing-function:linear,ease-in-out;animation-iteration-count:infinite,infinite;animation-play-state:running,running}.snowflake:nth-of-type(0){left:1%;-webkit-animation-delay:0s,0s;animation-delay:0s,0s}.snowflake:nth-of-type(1){left:10%;-webkit-animation-delay:1s,1s;animation-delay:1s,1s}.snowflake:nth-of-type(2){left:20%;-webkit-animation-delay:6s,.5s;animation-delay:6s,.5s}.snowflake:nth-of-type(3){left:30%;-webkit-animation-delay:4s,2s;animation-delay:4s,2s}.snowflake:nth-of-type(4){left:40%;-webkit-animation-delay:2s,2s;animation-delay:2s,2s}.snowflake:nth-of-type(5){left:50%;-webkit-animation-delay:8s,3s;animation-delay:8s,3s}.snowflake:nth-of-type(6){left:60%;-webkit-animation-delay:6s,2s;animation-delay:6s,2s}.snowflake:nth-of-type(7){left:70%;-webkit-animation-delay:2.5s,1s;animation-delay:2.5s,1s}.snowflake:nth-of-type(8){left:80%;-webkit-animation-delay:1s,0s;animation-delay:1s,0s}.snowflake:nth-of-type(9){left:90%;-webkit-animation-delay:3s,1.5s;animation-delay:3s,1.5s}.snowflake:nth-of-type(10){left:25%;-webkit-animation-delay:2s,0s;animation-delay:2s,0s}.snowflake:nth-of-type(11){left:65%;-webkit-animation-delay:4s,2.5s;animation-delay:4s,2.5s}
+  </style>
+  <div class="snowflakes" aria-hidden="true">
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀
+    </div>
+    <div class="snowflake">
+      /̸͆̅̿̎͞ ̎̅̿ ̄̿̈ ͆̈̚ ̎⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀
+    </div>
+  </div>
+  <script disable-devtool-auto="" src='assets/js/disable-devtool.js'></script>
+  <script src="assets/js/disable-inspect.js"></script>
+  <script src="assets/js/title.js"></script>
+</body>
+
+</html>
+
+<div class=col-md-12 style=display:block><img src=baby.png class="animated hanginggirl img-responsive infinite nodrag swing" draggable=false style=display:block></div>
