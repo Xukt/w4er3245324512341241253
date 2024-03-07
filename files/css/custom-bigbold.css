@@ -1,0 +1,307 @@
+/* *********
+
+Font Family 
+
+************ */
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=tel],
+input[type=date],
+textarea,
+input[type=submit],
+input[type=button],
+.button,
+button,
+table th,
+blockquote,
+cite,
+#header-actions-overlay .action-overlay .category-list li a,
+nav#main-nav ul>li>a,
+nav#main-nav>ul>li ul.sub-menu li a,
+.portfolio-category,
+.post-date,
+.post-cat,
+.meta-author,
+#single-pagination .pagination li a[data-title]::after,
+#page-pagination .pagination li.page span,
+#page-pagination .pagination li.page a,
+.phatvideo-bg .phatlightcase-play,
+.sr-button,
+.inline-video::before,
+.inline-lightcase::before {
+    font-family: 'Helvetica';
+}
+
+/* *********
+
+Font Styling 
+
+************ */
+
+body {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 27px;
+}
+
+strong,
+b,
+dt {
+    font-weight: 500;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    font-weight: 400;
+}
+
+h1 b,
+h2 b,
+h3 b,
+h4 b,
+h5 b,
+h6 b,
+h1 strong,
+h2 strong,
+h3 strong,
+h4 strong,
+h5 strong,
+h6 strong,
+.h1 b,
+.h2 b,
+.h3 b,
+.h4 b,
+.h5 b,
+.h6 b,
+.h1 strong,
+.h2 strong,
+.h3 strong,
+.h4 strong,
+.h5 strong,
+.h6 strong {
+    font-weight: 700;
+}
+
+h1,
+.h1 {
+    font-size: 66px;
+    line-height: 86px;
+}
+
+h2,
+.h2 {
+    font-size: 40px;
+    line-height: 54px;
+}
+
+h3,
+.h3 {
+    font-size: 32px;
+    line-height: 42px;
+}
+
+h4,
+.h4 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+h5,
+.h5 {
+    font-size: 18px;
+    line-height: 25px;
+}
+
+h6,
+.h6 {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=number],
+input[type=tel],
+input[type=date],
+textarea {
+    font-weight: 500;
+    font-size: 17px;
+}
+
+input[type=submit],
+input[type=button],
+.button,
+button {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+select {
+    font-weight: 300;
+    font-size: 14px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+table th {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.2em;
+}
+
+blockquote {
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+cite {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#header-actions-overlay .action-overlay .category-list li a {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+nav#main-nav ul>li>a {
+    font-weight: 300;
+    font-size: 28px;
+    line-height: 36px;
+}
+
+nav#main-nav>ul>li ul.sub-menu li a {
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 25px;
+}
+
+#menu.classic nav#main-nav>ul>li>a {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+}
+
+#menu.classic nav#main-nav>ul>li ul.sub-menu li a {
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0;
+    text-transform: none;
+}
+
+#hero #scrolldown span.text {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.portfolio-category {
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.5em;
+}
+
+.post-date {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.post-cat {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.meta-author {
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.comments .time {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.pagination li a {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#single-pagination .pagination li a[data-title]::after {
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#page-pagination .pagination li.page span,
+#page-pagination .pagination li.page a {
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.phatvideo-bg .phatlightcase-play {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.sr-button {
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.sr-button strong,
+.sr-button b {
+    font-weight: 700;
+}
+
+.inline-video::before,
+.inline-lightcase::before {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.05em;
+}
+
+.widget-title {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.widget ul:not(.socialmedia-widget) li a {
+    font-weight: 500;
+}
